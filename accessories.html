@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories</title>
+    
+</head>
+<body>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px 50px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+header nav a:hover {
+  color: #ff6600;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #ff6600, #ff3300);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card p {
+  color: #ff3300;
+  font-weight: bold;
+}
+
+button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #ff3300;
+}
+
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+    </style>
+     <header>
+    <div class="logo">MyShop</div>
+    <nav>
+      <a href="shop.html">shop</a>
+      <a href="home.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="bags.html">Bags</a>
+      <a href="clothes.html">Clothes</a>
+      <a href="footwear.html">Footwear</a>
+      <a href="accessories.html">Accessories</a>
+    </nav>
+  </header>
+  <h3>Rozaish Accessories</h3>
+    <h3>Accessories Section</h3>
+
+    
+      <section class="bags">
+    <h2>Featured Accessories</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/38.jpeg" alt="accessories">
+        <h3>Cute hair pin </h3>
+        <p>#2500.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/39.jpeg" alt="accessories">
+        <h3>cute hair band </h3>
+        <p>#1500.00</p>
+        <button>Add to Cart</button>
+      </div>
+        <div class="card">
+        <img src="images/40.jpeg" alt="accessories">
+        <h3>Rainbow hair pin </h3>
+        <p>#3500.00 per set</p>
+        <button>Add to Cart</button>
+      </div>
+        <div class="card">
+        <img src="images/41.jpeg" alt="accessories">
+        <h3>girlies items</h3>
+        <p>#3050.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/42.jpeg" alt="accessories">
+        <h3>set shoes, bags and hairpacker</h3>
+        <p>#1500.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/43.jpeg" alt="bags">
+        <h3>cute ponytail holder </h3>
+        <p>#500.00 each</p>
+        <button>Add to Cart</button>
+      </div>
+        <div class="card">
+        <img src="images/44.jpeg" alt="bags">
+        <h3>necklace and earrings sets</h3>
+        <p>#15000.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
